@@ -1,0 +1,17 @@
+{
+  "name": "alpine-3121-debug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "rollup": "^3.23.0"
+  },
+  "dependencies": {
+    "alpinejs": "3.12.1"
+  }
+}
